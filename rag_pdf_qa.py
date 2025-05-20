@@ -79,7 +79,7 @@ class QASystem:
         """
         
         model = ChatGoogleGenerativeAI(
-            model="gemini-pro",
+            model="gemini-1.5-pro",
             temperature=0.3,
             verbose=True
         )
